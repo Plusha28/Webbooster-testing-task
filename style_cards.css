@@ -37,6 +37,7 @@ body {
 .card-body {
     align-items: center;
     text-align: center;
+    font-size: 18px;
 }
 .card:hover {
     transform: scale(1.15);
@@ -60,7 +61,7 @@ body {
     font-size: 18px;
     margin: 4px 2px;
     border-radius: 30px;
-    line-height: 8px;
+    line-height: 5px;
     letter-spacing: 2px;
 
 }

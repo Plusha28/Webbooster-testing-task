@@ -1,147 +1,112 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style_cards.css">
-</head>
-<body>
-<main class="block">
-    <section class="slice">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 mb-3">
-                    <div class="card">
-                        <img class="card-img-top" src="img/chair.jpg" alt="Card image cap">
-                        <div class="card-body text-center">
-                            <p class="card-text"> Парикмахерское кресло </br> «Норм» гидравлическое</p>
-                            <h5 class="card-title">9 900 ₽</h5>
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Купить</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 mb-3">
-                    <div class="card">
-                        <img class="card-img-top" src="img/chair.jpg" alt="Card image cap">
-                        <div class="card-body text-center">
-                            <p class="card-text"> Парикмахерское кресло </br> «Норм» гидравлическое</p>
-                            <h5 class="card-title">9 900 ₽</h5>
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Купить</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 mb-3">
-                    <div class="card">
-                        <img class="card-img-top" src="img/chair.jpg" alt="Card image cap">
-                        <div class="card-body text-center">
-                            <p class="card-text"> Парикмахерское кресло </br> «Норм» гидравлическое</p>
-                            <h5 class="card-title">9 900 ₽</h5>
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Купить</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 mb-3">
-                    <div class="card">
-                        <img class="card-img-top" src="img/chair.jpg" alt="Card image cap">
-                        <div class="card-body text-center">
-                            <p class="card-text"> Парикмахерское кресло </br> «Норм» гидравлическое</p>
-                            <h5 class="card-title">9 900 ₽</h5>
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Купить</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Форма покупки</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <form>
-                                <div class="form-group">
-                                    <label for="exampleFormControlInput1">Email address</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleFormControlSelect1">Example select</label>
-                                    <select class="form-control" id="exampleFormControlSelect1">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleFormControlSelect2">Example multiple select</label>
-                                    <select multiple class="form-control" id="exampleFormControlSelect2">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleFormControlTextarea1">Example textarea</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-success">Купить</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-<!--<article id="form-container" class="container1">-->
-<!--    <form class="form">-->
-<!--        <p><b>Имя:</b><input type="text" name="name"></p>-->
-<!--        <p><b>Телефон:</b><input type="tel" name="tel"></p>-->
-<!--        <p><b>E-mail:</b><input type="email" name="email"></p>-->
-<!--        <p><b>Название товара:</b><input type="text" name="product"></p>-->
-<!--        <button type="submit">Отправить</button>-->
-<!--    </form>-->
-<!--</article>-->
-<script>
-
-    $('#myModal').on('shown.bs.modal', function () {
-        $('#myInput').trigger('focus')
-    })
-
-    // document.getElementById("form-container").style.visibility = "hidden";
-    //
-    // $(document).ready(function(){
-    //     var object = {
-    //         Button: '.btn',
-    //         form: '.container1 form'
-    //     };
-    //     $(object.Button).click (function() {
-    //         document.getElementById("form-container").style.visibility = "visible";
-    //     });
-    // });
-
-</script>
-</body>
+<!doctype html>
+<html lang="ru">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="style_cards.css">
+		
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<main class="main">
+			<section class="slice">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 mb-3">
+							<div class="card">
+								<img class="card-img-top" src="img/chair.jpg" alt="Card image">
+								<div class="card-body text-center">
+									<p class="card-text">Парикмахерское кресло</br>«Норм» гидравлическое</p>
+									
+									<h5 class="card-title">9 900 ₽</h5>
+									
+									<button type="button" class="btn btn-sm btn-rd btn-danger mt-3" style="width: 100%;" data-toggle="modal" data-target="#exampleModal">Купить</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 mb-3">
+							<div class="card">
+								<img class="card-img-top" src="img/chair.jpg" alt="Card image">
+								<div class="card-body text-center">
+									<p class="card-text">Парикмахерское кресло</br>«Норм» гидравлическое</p>
+									
+									<h5 class="card-title">9 900 ₽</h5>
+									
+									<button type="button" class="btn btn-sm btn-rd btn-danger mt-3" style="width: 100%;" data-toggle="modal" data-target="#exampleModal">Купить</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 mb-3">
+							<div class="card">
+								<img class="card-img-top" src="img/chair.jpg" alt="Card image">
+								<div class="card-body text-center">
+									<p class="card-text">Парикмахерское кресло</br>«Норм» гидравлическое</p>
+									
+									<h5 class="card-title">9 900 ₽</h5>
+									
+									<button type="button" class="btn btn-sm btn-rd btn-danger mt-3" style="width: 100%;" data-toggle="modal" data-target="#exampleModal">Купить</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 mb-3">
+							<div class="card">
+								<img class="card-img-top" src="img/chair.jpg" alt="Card image">
+								<div class="card-body text-center">
+									<p class="card-text">Парикмахерское кресло</br>«Норм» гидравлическое</p>
+									
+									<h5 class="card-title">9 900 ₽</h5>
+									
+									<button type="button" class="btn btn-sm btn-rd btn-danger mt-3" style="width: 100%;" data-toggle="modal" data-target="#exampleModal">Купить</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLabel">Форма покупки</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<form>
+										<div class="form-group">
+											<label for="name">Имя</label>
+											<input type="text" class="form-control" id="name" placeholder="Имя">
+										</div>
+										<div class="form-group">
+											<label for="phone">Телефон</label>
+											<input type="tel" class="form-control" id="phone" placeholder="Телефон">
+										</div>
+										<div class="form-group">
+											<label for="mail">E-mail</label>
+											<input type="email" class="form-control" id="mail" placeholder="E-mail">
+										</div>
+										<div class="form-group">
+											<label for="product">Название товара</label>
+											<input type="text" class="form-control" id="product" placeholder="Название товара">
+										</div>
+									</form>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-danger">Отправить</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
 </html>

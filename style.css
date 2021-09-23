@@ -9,16 +9,24 @@ html {
     min-width: 100%;
 }
 body {
-    height: 100vh;
-}
-.container {
     position: absolute;
     left: 50%;
-    transform: translate(-28%);
-    display: flex;
-    flex-direction: row;
+    transform: translate(-50%);
+    height: 100vh;
+    text-align: center;
     align-items: center;
-    width: 100%;
-    margin: 0;
-    padding: 0;
+    width: 90%;
+}
+.container {
+    align-items: center;
+}
+.iframe {
+    border: 0;
+    width: 60vw;
+    height: 70vh;
+    overflow-y: hidden;
+}
+.image {
+    width: 13%;
+    height: 40%;
 }
